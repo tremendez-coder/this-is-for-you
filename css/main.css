@@ -1774,7 +1774,7 @@ h1 {
 
 .audio-player {
   position: fixed;
-  bottom: 60px;
+  bottom: 120px;
   left: 50%;
   transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.8);
@@ -1907,7 +1907,7 @@ h1 {
 /* Responsive design for audio player */
 @media only screen and (max-width: 600px) {
   .audio-player {
-    bottom: 20px;
+    bottom: 40px;
     left: 10px;
     right: 10px;
     transform: none !important;
@@ -1989,7 +1989,7 @@ h1 {
 
 .subtitles-container {
   position: fixed;
-  bottom: 160px;
+  bottom: 220px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -2030,7 +2030,7 @@ h1 {
 /* Responsive design for subtitles */
 @media only screen and (max-width: 600px) {
   .subtitles-container {
-    bottom: 120px;
+    bottom: 160px;
     max-width: 95%;
     padding: 0 15px;
   }
@@ -2047,7 +2047,7 @@ h1 {
 
 @media only screen and (max-width: 400px) {
   .subtitles-container {
-    bottom: 110px;
+    bottom: 150px;
     max-width: 98%;
     padding: 0 10px;
   }
